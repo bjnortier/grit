@@ -1,0 +1,24 @@
+{
+  "name": "grit",
+  "version": "0.1.0",
+  "description": "Git-inspired graph data with browser/server sync",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bjnortier/grit.git"
+  },
+  "keywords": [
+    "graph",
+    "git",
+    "sync"
+  ],
+  "author": "Ben Nortier <ben@bjnortier.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjnortier/grit/issues"
+  },
+  "homepage": "https://github.com/bjnortier/grit"
+}

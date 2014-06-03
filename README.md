@@ -1,4 +1,3 @@
-grit
-====
+# grit
 
-Git-like graph data with browser/server sync
+Git-inspired graph data with browser/server sync
