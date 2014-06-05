@@ -2,7 +2,7 @@
   "name": "grit",
   "version": "0.1.0",
   "description": "Git-inspired graph data with browser/server sync",
-  "main": "lib/index.js",
+  "main": "lib/graph.js",
   "scripts": {
     "test": "npm test"
   },
@@ -21,13 +21,18 @@
     "url": "https://github.com/bjnortier/grit/issues"
   },
   "homepage": "https://github.com/bjnortier/grit",
+  "dependencies": {
+    "backbone-events-standalone": "^0.2.1"
+  },
   "devDependencies": {
     "chai": "~1.9.1",
+    "crypto-js": "^3.1.2-3",
     "grunt": "~0.4.5",
-    "mocha": "~1.20.0",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-contrib-mocha": "0.0.0",
     "grunt-contrib-jshint": "~0.10.0",
-    "grunt-simple-mocha": "~0.4.0"
+    "grunt-contrib-mocha": "0.0.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-simple-mocha": "~0.4.0",
+    "mocha": "~1.20.0",
+    "underscore": "^1.6.0"
   }
 }
