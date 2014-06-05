@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/bjnortier/grit",
   "dependencies": {
-    "backbone-events-standalone": "^0.2.1"
+    "backbone-events-standalone": "^0.2.1",
+    "mori": "^0.2.6"
   },
   "devDependencies": {
     "chai": "~1.9.1",
